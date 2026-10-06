@@ -14,8 +14,7 @@
 2. install react/vite
 3. run "npm run dev" in the terminal to start the browser
 
-
-### Instructions (the way I installed this App)
+### Step by step change log of the steps I took
 1.  I creaed an empty repository in Github and copied its url
 2.  Then I navigated to the file that I wanted to put it in and moved to git bash
 3. In git bash, I cloned the repository "git clone https://github.com/Dana-codeExplorer/todo-list.git"
