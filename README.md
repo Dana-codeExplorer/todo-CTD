@@ -1,5 +1,21 @@
-# Todo-List App
-## Instalation Instructions (the way I installed this App)
+# Title: Todo-CTD
+## Description Of App
+### This App Does the following:
+1. It is a list of daiy todo tasks
+2. It provides a way to add to delete a todo task
+3. It provides a way to delete a todo task
+4. It will set proiority of tasks 
+5. I would like it to have a completed task file to store tings that need to be rememered
+6. I would also like those completed todo tasks to have a date and a way to remove todo tasks from the completed file.
+* I am not sure where teacher is going with plan, but these are the things I think should be included.
+
+##  User Installation Steps:
+1. clone the repository
+2. install react/vite
+3. run "npm run dev" in the terminal to start the browser
+
+
+### Instructions (the way I installed this App)
 1.  I creaed an empty repository in Github and copied its url
 2.  Then I navigated to the file that I wanted to put it in and moved to git bash
 3. In git bash, I cloned the repository "git clone https://github.com/Dana-codeExplorer/todo-list.git"
@@ -20,10 +36,10 @@
 18. If cleared to merge, You click "merge" and "confirm merge"
 19. the Last step is to return to the terminal, switch to main and type "git pull" to bring those changes back to your local main branch.  Then that branch can be deleted.
 
-##  How to run the development server.
+# How to run the development server.
 ### Look in the package.json see what is listed under scripts for vite it is dev, so your command is "npm run dev".  Run it in your terminal and keep it running to watch updates in realtime.
 
-## hello world
+
 
 
 
