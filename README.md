@@ -15,7 +15,7 @@
 3. run "npm run dev" in the terminal to start the browser
 
 ### Step by step change log of the steps I took
-1.  I creaed an empty repository in Github and copied its url
+1.  I created an empty repository in Github and copied its url
 2.  Then I navigated to the file that I wanted to put it in and moved to git bash
 3. In git bash, I cloned the repository "git clone https://github.com/Dana-codeExplorer/todo-list.git"
 4. Adding react/vite is the next step "npx create-vite@latest --template ."
