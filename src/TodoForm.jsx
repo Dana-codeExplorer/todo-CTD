@@ -1,26 +1,13 @@
-import useState from "react";
 
-
-const TodoForm = ({ onAddTodo }) => {
-  const [inputValue, setInputValue] = useState('');
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (inputValue.trim() !== '') {
-      onAddTodo(inputValue);
-      setInputValue('');
-    }
-  };
-
+function TodoForm () {
   return (
-    <form onSubmit={handleSubmit}>
+    <form>
+      <label htmlFor="todoTitle">Todo Title:</label>
       <input
         type="text"
-        value={inputValue}
-        onChange={(e) => setInputValue(e.target.value)}
-        placeholder="Add a new todo..."
+        id="todoTitle"
       />
-      <button type="submit">Add</button>
+      <button type="submit" disabled>Add Todo</button>
     </form>
   );
 };

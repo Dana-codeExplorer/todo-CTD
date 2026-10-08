@@ -9,7 +9,6 @@ function TodoList() {
 
   return (
     <div>
-      <h1>Things I Have to Do</h1>
       <ul>
         {todoList.map((todo) => (
           <li key={todo.id}>{todo.title}</li>
